@@ -1,0 +1,31 @@
+<h1>Multimedia dan media Source dalam HTML</h1>
+
+<ul>
+    <li>
+        </h2>Vidio</h2>
+        <hr>
+        <video controls width="400" height="200" loop autoplay muted preload="auto">
+        <source src="./2020-10-23 134955.mp4" type="vidio/mp4">
+        <p>Browser tidak mendukung!, gunakan <a href="./2020-10-23 134955.mp4">link</a> berikut</p>
+        <track kind="caption" src="./2020-10-23 134955.vtt" srclang="en" label="english"> 
+        </video>
+    </li>
+    <li>
+        <h2>Audio</h2>
+        <hr>
+        <audio controls>
+            <source src="./MENUA.mp3" type="audio.mp3">
+            <p>Browser tidak mendukung!, gunakan <a href="./MENUA.mp3">link</a> berikut</p>
+        </audio>
+    </li>
+    <li>
+        <h2>Gambar Responsive</h2>
+        <hr>
+        <picture>
+            <source media="(max-width: 600px)" srcset="./1549021065980.jpg">
+            <source media="(max-width: 1200px)" srcset="./1549030758628.jpg">
+            <img src="./1549021065980.jpg" alt="pic 1" style="width:auto;">
+            <img src="./1549030758628.jpg" alt="pic 1" style="width:auto;">
+        </picture>
+    </li>
+</ul>
